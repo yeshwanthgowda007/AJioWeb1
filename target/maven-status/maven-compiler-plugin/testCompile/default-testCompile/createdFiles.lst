@@ -1,0 +1,7 @@
+com\ajioweb\pages\AjiohomeTestPage.class
+com\ajioweb\pages\SearchresultTestPage.class
+com\ajioweb\Bean\ProductInfoBean.class
+com\ajioweb\pages\AddtocartTestPage.class
+com\ajioweb\test\TestFlipkartOrderVerification.class
+com\ajioweb\component\ProductComponent.class
+com\ajioweb\pages\ProductdetailsTestPage.class

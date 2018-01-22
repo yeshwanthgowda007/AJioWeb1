@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+<categories>
+<menu>MEN</menu>
+<subMenu>Shirts</subMenu>
+<sortBy>Price (lowest first)</sortBy>
+<No>1</No>
+</categories>
+
+<categories>
+<menu>WOMEN</menu>
+<subMenu>Dresses</subMenu>
+<sortBy>Price (lowest first)</sortBy>
+<No>1</No>
+</categories>
+
+<categories>
+<menu>INDIE</menu>
+<subMenu>Dresses</subMenu>
+<sortBy>Price (lowest first)</sortBy>
+<No>1</No>
+</categories>
+
+<categories>
+<menu>KIDS</menu>
+<subMenu>Shirts</subMenu>
+<sortBy>Price (lowest first)</sortBy>
+<No>1</No>
+</categories>
+
+<categories>
+<menu>TECH</menu>
+<subMenu>Fitbit</subMenu>
+<sortBy>Price (lowest first)</sortBy>
+<No>1</No>
+</categories>
+</product>

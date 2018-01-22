@@ -1,0 +1,1735 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensAjioApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.ajio.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1476
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/shop/men'], using=xpath}"
+          ],
+          "result": "[id: 0.30749296834565554-1, id: 0.30749296834565554-2]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/shop/men'], using=xpath}"
+          ],
+          "result": "id: 0.30749296834565554-1",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/shop/men']",
+            "{\"id\":\"0.30749296834565554-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/shop/men'], using=xpath}"
+          ],
+          "result": "id: 0.30749296834565554-1",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/shop/men']",
+            "{\"id\":\"0.30749296834565554-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/shop/men'], using=xpath}"
+          ],
+          "result": "[id: 0.30749296834565554-1, id: 0.30749296834565554-2]",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/shop/men'], using=xpath}"
+          ],
+          "result": "id: 0.30749296834565554-1",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='/shop/men']",
+            "{\"id\":\"0.30749296834565554-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1216
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetsAjioHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping for Men: Clothes, Shoes, Tech & more - AJIO",
+          "subLogs": [],
+          "duration": 8
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickCategory",
+      "args": [
+        "[${menu}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@title='KIDS'], using=xpath}"
+          ],
+          "result": "id: 0.7747438895315673-1",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.7747438895315673-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 22
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickSubCategory",
+      "args": [
+        "[${subMenu}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@title='Shirts'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title='Shirts']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir8912_14192}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 6414d232f500422890a5ff1e5607bff8\n*** Element info: {Using=xpath, value=//a[@title='Shirts']}",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@title='Shirts'], using=xpath}"
+          ],
+          "result": "id: 0.7747438895315673-2",
+          "subLogs": [],
+          "duration": 1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@title='Shirts']",
+            "{\"id\":\"0.7747438895315673-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 699
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsSortBy",
+      "args": [
+        "[${sortBy}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//select, using=xpath}"
+          ],
+          "result": "id: 0.7786653932380088-1",
+          "subLogs": [],
+          "duration": 715
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //select",
+            "{\"id\":\"0.7786653932380088-1\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//select, using=xpath}"
+          ],
+          "result": "id: 0.7786653932380088-1",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //select",
+            "{\"name\":\"multiple\",\"id\":\"0.7786653932380088-1\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//select, using=xpath}"
+          ],
+          "result": "id: 0.7786653932380088-1",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //select",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-1\",\"value\":\".//option[normalize-space(.) = \\\"Price (lowest first)\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 0.7786653932380088-2]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 0.7786653932380088-2",
+            "{\"id\":\"0.7786653932380088-2\"}"
+          ],
+          "result": "isElementSelected:false",
+          "subLogs": [],
+          "duration": 2
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 0.7786653932380088-2",
+            "{\"id\":\"0.7786653932380088-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 95
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetsSearchResultPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 36
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifiesTheProductListIsSortedOrNot",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-3\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-4\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-5\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-6\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-7\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-8\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-9\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-10\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-11\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-12\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-13\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-14\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-15\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-16\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-17\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-18\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-19\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-20\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-21\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-22\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-23\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-24\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-25\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-26\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-27\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-28\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-29\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-30\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-31\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-32\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-33\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-34\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 1
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-35\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-36\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-37\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-38\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-39\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-40\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-41\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-42\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-43\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-44\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-45\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-46\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-47\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-3\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsTheProductByIndex",
+      "args": [
+        "[${No}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-4\",\"value\":\"//div[@class='brand']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-49",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='brand']",
+            "{\"id\":\"0.7786653932380088-49\"}"
+          ],
+          "result": "getElementText:KB TEAM SPIRIT",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-4\",\"value\":\"//div[@class='name']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-50",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='name']",
+            "{\"id\":\"0.7786653932380088-50\"}"
+          ],
+          "result": "getElementText:Yarn-Dyed Checked Shirt",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-4\",\"value\":\"//span[@class='price']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-48",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@class='price']",
+            "{\"id\":\"0.7786653932380088-48\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='preview'], using=xpath}"
+          ],
+          "result": "[id: 0.7786653932380088-3, id: 0.7786653932380088-4, id: 0.7786653932380088-5, id: 0.7786653932380088-6, id: 0.7786653932380088-7, id: 0.7786653932380088-8, id: 0.7786653932380088-9, id: 0.7786653932380088-10, id: 0.7786653932380088-11, id: 0.7786653932380088-12, id: 0.7786653932380088-13, id: 0.7786653932380088-14, id: 0.7786653932380088-15, id: 0.7786653932380088-16, id: 0.7786653932380088-17, id: 0.7786653932380088-18, id: 0.7786653932380088-19, id: 0.7786653932380088-20, id: 0.7786653932380088-21, id: 0.7786653932380088-22, id: 0.7786653932380088-23, id: 0.7786653932380088-24, id: 0.7786653932380088-25, id: 0.7786653932380088-26, id: 0.7786653932380088-27, id: 0.7786653932380088-28, id: 0.7786653932380088-29, id: 0.7786653932380088-30, id: 0.7786653932380088-31, id: 0.7786653932380088-32, id: 0.7786653932380088-33, id: 0.7786653932380088-34, id: 0.7786653932380088-35, id: 0.7786653932380088-36, id: 0.7786653932380088-37, id: 0.7786653932380088-38, id: 0.7786653932380088-39, id: 0.7786653932380088-40, id: 0.7786653932380088-41, id: 0.7786653932380088-42, id: 0.7786653932380088-43, id: 0.7786653932380088-44, id: 0.7786653932380088-45, id: 0.7786653932380088-46, id: 0.7786653932380088-47]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //div[@class='preview']",
+            "{\"using\":\"xpath\",\"id\":\"0.7786653932380088-4\",\"value\":\"//div[@class='name']\"}"
+          ],
+          "result": "findChildElement:id: 0.7786653932380088-50",
+          "subLogs": [],
+          "duration": 0
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetsTheProductDetailsPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//h2[@class='brand-name'], using=xpath}"
+          ],
+          "result": "id: 0.8575804705625125-1",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //h2[@class='brand-name']",
+            "{\"id\":\"0.8575804705625125-1\"}"
+          ],
+          "result": "getElementText:KB TEAM SPIRIT",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//h1[@class='prod-name'], using=xpath}"
+          ],
+          "result": "id: 0.8575804705625125-2",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //h1[@class='prod-name']",
+            "{\"id\":\"0.8575804705625125-2\"}"
+          ],
+          "result": "getElementText:Yarn-Dyed Checked Shirt",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='prod-sp'], using=xpath}"
+          ],
+          "result": "id: 0.8575804705625125-3",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='prod-sp']",
+            "{\"id\":\"0.8575804705625125-3\"}"
+          ],
+          "result": "getElementText:Rs. 300",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsTheSize",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[contains(@class,'instock')], using=xpath}"
+          ],
+          "result": "id: 0.8575804705625125-4",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[contains(@class,'instock')]",
+            "{\"id\":\"0.8575804705625125-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 65
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userClicksOnAddToCartLink",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='ADD TO BAG'], using=xpath}"
+          ],
+          "result": "id: 0.8575804705625125-5",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[text()='ADD TO BAG']",
+            "{\"id\":\"0.8575804705625125-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1069
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "theProductShouldBeAddedToTheCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/cart'], using=xpath}"
+          ],
+          "result": "id: 0.8575804705625125-6",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+          ],
+          "result": "[id: 0.3818370504569122-1, id: 0.3818370504569122-2, id: 0.3818370504569122-3, id: 0.3818370504569122-4]",
+          "subLogs": [],
+          "duration": 1606
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+          ],
+          "result": "id: 0.3818370504569122-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='fnl-cart-des-main']",
+            "{\"id\":\"0.3818370504569122-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Your Shopping Bag | AJIO",
+          "subLogs": [],
+          "duration": 3
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+          ],
+          "result": "id: 0.3818370504569122-1",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='fnl-cart-des-main']",
+            "{\"id\":\"0.3818370504569122-1\"}"
+          ],
+          "result": "getElementText:KB TEAM SPIRIT - Yarn-Dyed Checked Shirt",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//span[@id='finprc-amt'])[1], using=xpath}"
+          ],
+          "result": "id: 0.3818370504569122-5",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: (//span[@id='finprc-amt'])[1]",
+            "{\"id\":\"0.3818370504569122-5\"}"
+          ],
+          "result": "getElementText:Rs. 300.00",
+          "subLogs": [],
+          "duration": 16
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens ajio application",
+      "type": "TestStepPass",
+      "duration": 2804,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should gets ajio homepage",
+      "type": "TestStepPass",
+      "duration": 529,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Home Page verification\nExpected: a string containing \"Online Shopping for Men: Clothes, Shoes, Tech & more - AJIO\"\n     Actual: was \"Online Shopping for Men: Clothes, Shoes, Tech & more - AJIO\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_1wvugimnavyuv579.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects 'KIDS' in the menu bar",
+      "type": "TestStepPass",
+      "duration": 44,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects 'Shirts' from the menu",
+      "type": "TestStepPass",
+      "duration": 1723,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects sort by 'Price (lowest first)'",
+      "type": "TestStepPass",
+      "duration": 2866,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should gets search result page",
+      "type": "TestStepPass",
+      "duration": 438,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "verifying the products \nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;45&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_34qn8rcselkn580.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user verifies the product list is sorted or not",
+      "type": "TestStepPass",
+      "duration": 1592,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects the product by index '1'",
+      "type": "TestStepPass",
+      "duration": 2641,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should gets the product details page",
+      "type": "TestStepPass",
+      "duration": 1193,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"KB TEAM SPIRIT\"\n     Actual: was \"KB TEAM SPIRIT\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_e9qoryidnfq1581.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"YARN-DYED CHECKED SHIRT\"\n     Actual: was \"YARN-DYED CHECKED SHIRT\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_x0dxkmpeedl2582.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"RS. 300\"\n     Actual: was \"RS. 300\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_w44drybf7bdw583.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects the size",
+      "type": "TestStepPass",
+      "duration": 81,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user clicks on Add to cart link",
+      "type": "TestStepPass",
+      "duration": 1087,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then the product should be added to the cart",
+      "type": "TestStepPass",
+      "duration": 5883,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Verifying add to cart page\nExpected: a string containing \"Your Shopping Bag | AJIO\"\n     Actual: was \"Your Shopping Bag | AJIO\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_enkgbaww1gkm584.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"Yarn-Dyed Checked Shirt\"\n     Actual: was \"KB TEAM SPIRIT - Yarn-Dyed Checked Shirt\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_1o3udiqyuitzi585.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"Rs. 300\"\n     Actual: was \"Rs. 300.00\"",
+          "type": "Pass",
+          "screenshot": "test-results/22_Jan_2018_01_31_PM/img/AddProductToCart_pv4tabhouelx586.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

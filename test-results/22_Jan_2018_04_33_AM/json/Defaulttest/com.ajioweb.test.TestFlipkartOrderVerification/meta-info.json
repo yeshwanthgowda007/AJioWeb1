@@ -1,0 +1,51 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516595673308,
+      "duration": 17984,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "resultFileName": "verifyFlipkartOrderzjOsTVqanY",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516595818197,
+      "duration": 18177,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "resultFileName": "verifyFlipkartOrderrHOtzEmFlG",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516595918247,
+      "duration": 13671,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

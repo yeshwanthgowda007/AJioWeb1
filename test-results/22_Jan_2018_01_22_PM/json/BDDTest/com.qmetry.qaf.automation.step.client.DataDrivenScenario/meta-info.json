@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "menu": "MEN",
+          "subMenu": "Shirts",
+          "sortBy": "Price (lowest first)",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3,
+        "name": "AddProductToCart",
+        "referece": "scenarios/AjioAddToCart.bdd",
+        "sign": "scenarios.AjioAddToCart.bdd.AddProductToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516607553005,
+      "duration": 43029,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

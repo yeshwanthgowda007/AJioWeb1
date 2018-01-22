@@ -1,0 +1,3 @@
+lnk.category.homepage = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"category in homepage\"}
+lnk.subCategory.homepage = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"sub category in homepage\"}
+lnk.popup.homepage = {\"locator\":\"xpath=//a[@href='/shop/men']\",\"desc\":\"pop up in home page\"}

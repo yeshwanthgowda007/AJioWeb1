@@ -1,0 +1,21 @@
+
+
+SCENARIO: AddProductToCart
+META-DATA: {"description":"","groups":["P1","P2","SMOKE"],"key":"categories"}
+	
+	Given user opens ajio application
+	Then user should gets ajio homepage
+	When user selects '${menu}' in the menu bar
+	And user selects '${subMenu}' from the menu
+	And user selects sort by '${sortBy}' 
+	Then user should gets search result page
+	And user verifies the product list is sorted or not
+	When user selects the product by index '${No}'
+	Then user should gets the product details page
+	When user selects the size 
+	And user clicks on Add to cart link
+	Then the product should be added to the cart
+	
+	
+	
+END

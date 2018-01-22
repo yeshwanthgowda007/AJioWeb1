@@ -1,0 +1,158 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "menu": "MEN",
+          "subMenu": "Shirts",
+          "sortBy": "Price (lowest first)",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddProductToCart",
+        "referece": "scenarios/AjioAddToCart.bdd",
+        "sign": "scenarios.AjioAddToCart.bdd.AddProductToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516608111655,
+      "duration": 41707,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "menu": "WOMEN",
+          "subMenu": "Dresses",
+          "sortBy": "Price (lowest first)",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddProductToCart",
+        "referece": "scenarios/AjioAddToCart.bdd",
+        "resultFileName": "AddProductToCartxKtXzqtrxh",
+        "sign": "scenarios.AjioAddToCart.bdd.AddProductToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516608153424,
+      "duration": 20658,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "menu": "INDIE",
+          "subMenu": "Dresses",
+          "sortBy": "Price (lowest first)",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddProductToCart",
+        "referece": "scenarios/AjioAddToCart.bdd",
+        "resultFileName": "AddProductToCartYVxtsqxWwh",
+        "sign": "scenarios.AjioAddToCart.bdd.AddProductToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516608174103,
+      "duration": 20825,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "menu": "KIDS",
+          "subMenu": "Shirts",
+          "sortBy": "Price (lowest first)",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddProductToCart",
+        "referece": "scenarios/AjioAddToCart.bdd",
+        "resultFileName": "AddProductToCartSgQaDeogvI",
+        "sign": "scenarios.AjioAddToCart.bdd.AddProductToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516608194944,
+      "duration": 20901,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 5,
+      "type": "test",
+      "args": [
+        {
+          "menu": "TECH",
+          "subMenu": "Fitbit",
+          "sortBy": "Price (lowest first)",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3,
+        "name": "AddProductToCart",
+        "referece": "scenarios/AjioAddToCart.bdd",
+        "resultFileName": "AddProductToCartdzxkrfJmxv",
+        "sign": "scenarios.AjioAddToCart.bdd.AddProductToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516608215846,
+      "duration": 8248,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

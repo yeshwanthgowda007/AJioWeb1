@@ -1,0 +1,5 @@
+lnk.productname.searchresultpage = {\"locator\":\"xpath=//div[@class='name']\",\"desc\":\"product name in search result page\"}
+lnk.productbrand.searchresultpage = {\"locator\":\"xpath=//div[@class='brand']\",\"desc\":\"product band in search result page\"}
+lnk.productprice.searchresultpage = {\"locator\":\"xpath=//span[@class='price']\",\"desc\":\"product price in search result page\"}
+drp.sortby.searchresultpage = {\"locator\":\"xpath=//select\",\"desc\":\"sort by in search result page\"}
+lnk.productdivision.searchresultpage = {\"locator\":\"xpath=//div[@class='preview']\",\"desc\":\"product division in search result page\"}

@@ -1,0 +1,83 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516365171296,
+      "duration": 50805,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "resultFileName": "verifyFlipkartOrderRZDJQgczwo",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516365272098,
+      "duration": 16502,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "resultFileName": "verifyFlipkartOrderEsVgkCTYTV",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516365314011,
+      "duration": 14538,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "resultFileName": "verifyFlipkartOrderSIfeHMxGgl",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516365350852,
+      "duration": 26087,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "resultFileName": "verifyFlipkartOrderZtuYhutZeo",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@73d4cc9e]"
+      },
+      "dependsOn": [],
+      "startTime": 1516365587812,
+      "duration": 22478,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

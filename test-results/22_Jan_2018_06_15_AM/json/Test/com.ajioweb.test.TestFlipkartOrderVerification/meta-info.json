@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyFlipkartOrder",
+        "sign": "TestFlipkartOrderVerification.verifyFlipkartOrder()[pri:0, instance:com.ajioweb.test.TestFlipkartOrderVerification@e874448]"
+      },
+      "dependsOn": [],
+      "startTime": 1516601736589,
+      "duration": 178537,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

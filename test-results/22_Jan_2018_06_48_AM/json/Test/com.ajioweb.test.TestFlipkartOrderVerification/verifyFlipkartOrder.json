@@ -1,0 +1,1734 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ajio.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 12238
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1144
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[@href='/shop/men'], using=xpath}"
+      ],
+      "result": "[id: 0.30894397629017956-1, id: 0.30894397629017956-2]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@href='/shop/men'], using=xpath}"
+      ],
+      "result": "id: 0.30894397629017956-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //a[@href='/shop/men']",
+        "{\"id\":\"0.30894397629017956-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@href='/shop/men'], using=xpath}"
+      ],
+      "result": "id: 0.30894397629017956-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //a[@href='/shop/men']",
+        "{\"id\":\"0.30894397629017956-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[@href='/shop/men'], using=xpath}"
+      ],
+      "result": "[id: 0.30894397629017956-1, id: 0.30894397629017956-2]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@href='/shop/men'], using=xpath}"
+      ],
+      "result": "id: 0.30894397629017956-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@href='/shop/men']",
+        "{\"id\":\"0.30894397629017956-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1901
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping for Men: Clothes, Shoes, Tech & more - AJIO",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@title='MEN'], using=xpath}"
+      ],
+      "result": "id: 0.8645087706756358-1",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.8645087706756358-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@title='Shirts'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title='Shirts']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//a[@title='Shirts']}",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@title='Shirts'], using=xpath}"
+      ],
+      "result": "id: 0.8645087706756358-2",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@title='Shirts']",
+        "{\"id\":\"0.8645087706756358-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1031
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Shirts Online: upto 70%+ Off on Formal & Casual Shirts for Men - AJIO",
+      "subLogs": [],
+      "duration": 1097
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select, using=xpath}"
+      ],
+      "result": "id: 0.33570213005514193-46",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.xpath: //select",
+        "{\"id\":\"0.33570213005514193-46\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select, using=xpath}"
+      ],
+      "result": "id: 0.33570213005514193-46",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.xpath: //select",
+        "{\"name\":\"multiple\",\"id\":\"0.33570213005514193-46\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select, using=xpath}"
+      ],
+      "result": "id: 0.33570213005514193-46",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //select",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-46\",\"value\":\".//option[normalize-space(.) = \\\"Price (lowest first)\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.33570213005514193-47]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.33570213005514193-47",
+        "{\"id\":\"0.33570213005514193-47\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.33570213005514193-47",
+        "{\"id\":\"0.33570213005514193-47\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 150
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-1\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-2\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-3\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-4\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-5\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-6\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-7\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-8\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-9\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-10\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-11\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-12\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-13\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-14\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-15\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-16\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-17\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 1
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-18\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-19\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-20\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-21\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-22\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-23\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-24\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-25\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-26\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-27\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-28\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-29\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-30\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-31\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-32\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-33\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-34\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-35\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-36\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-37\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-38\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-39\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-40\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-41\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-42\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-43\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-44\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-45\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-1\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-2\",\"value\":\"//div[@class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-49",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='brand']",
+        "{\"id\":\"0.33570213005514193-49\"}"
+      ],
+      "result": "getElementText:NETWORK",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 424
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-2\",\"value\":\"//div[@class='name']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-50",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='name']",
+        "{\"id\":\"0.33570213005514193-50\"}"
+      ],
+      "result": "getElementText:Fil-a-Fil Shirt with Patch Pocket",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-2\",\"value\":\"//span[@class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-48",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='price']",
+        "{\"id\":\"0.33570213005514193-48\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='preview'], using=xpath}"
+      ],
+      "result": "[id: 0.33570213005514193-1, id: 0.33570213005514193-2, id: 0.33570213005514193-3, id: 0.33570213005514193-4, id: 0.33570213005514193-5, id: 0.33570213005514193-6, id: 0.33570213005514193-7, id: 0.33570213005514193-8, id: 0.33570213005514193-9, id: 0.33570213005514193-10, id: 0.33570213005514193-11, id: 0.33570213005514193-12, id: 0.33570213005514193-13, id: 0.33570213005514193-14, id: 0.33570213005514193-15, id: 0.33570213005514193-16, id: 0.33570213005514193-17, id: 0.33570213005514193-18, id: 0.33570213005514193-19, id: 0.33570213005514193-20, id: 0.33570213005514193-21, id: 0.33570213005514193-22, id: 0.33570213005514193-23, id: 0.33570213005514193-24, id: 0.33570213005514193-25, id: 0.33570213005514193-26, id: 0.33570213005514193-27, id: 0.33570213005514193-28, id: 0.33570213005514193-29, id: 0.33570213005514193-30, id: 0.33570213005514193-31, id: 0.33570213005514193-32, id: 0.33570213005514193-33, id: 0.33570213005514193-34, id: 0.33570213005514193-35, id: 0.33570213005514193-36, id: 0.33570213005514193-37, id: 0.33570213005514193-38, id: 0.33570213005514193-39, id: 0.33570213005514193-40, id: 0.33570213005514193-41, id: 0.33570213005514193-42, id: 0.33570213005514193-43, id: 0.33570213005514193-44, id: 0.33570213005514193-45]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //div[@class='preview']",
+        "{\"using\":\"xpath\",\"id\":\"0.33570213005514193-2\",\"value\":\"//div[@class='name']\"}"
+      ],
+      "result": "findChildElement:id: 0.33570213005514193-50",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//h2[@class='brand-name'], using=xpath}"
+      ],
+      "result": "id: 0.9318945529446336-1",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h2[@class='brand-name']",
+        "{\"id\":\"0.9318945529446336-1\"}"
+      ],
+      "result": "getElementText:NETWORK",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//h1[@class='prod-name'], using=xpath}"
+      ],
+      "result": "id: 0.9318945529446336-2",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //h1[@class='prod-name']",
+        "{\"id\":\"0.9318945529446336-2\"}"
+      ],
+      "result": "getElementText:Fil-a-Fil Shirt with Patch Pocket",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='prod-sp'], using=xpath}"
+      ],
+      "result": "id: 0.9318945529446336-3",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='prod-sp']",
+        "{\"id\":\"0.9318945529446336-3\"}"
+      ],
+      "result": "getElementText:Rs. 300",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[contains(@class,'instock')], using=xpath}"
+      ],
+      "result": "id: 0.9318945529446336-4",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[contains(@class,'instock')]",
+        "{\"id\":\"0.9318945529446336-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 90
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='ADD TO BAG'], using=xpath}"
+      ],
+      "result": "id: 0.9318945529446336-5",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='ADD TO BAG']",
+        "{\"id\":\"0.9318945529446336-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1080
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Buy NETWORK Men Red Fil-a-Fil Shirt with Patch Pocket | AJIO",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 507 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 508
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 21 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 6 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 6 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 6 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 21 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 26 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 32 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='fnl-cart-des-main'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='fnl-cart-des-main']",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //div[@class='fnl-cart-des-main']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "subLogs": [],
+      "duration": 480355555
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Home Page verification\nExpected: a string containing \"Online Shopping for Men: Clothes, Shoes, Tech & more - AJIO\"\n     Actual: was \"Online Shopping for Men: Clothes, Shoes, Tech & more - AJIO\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyFlipkartOrder_1ov4v1y54kdde42366.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "SearchResultTestPage Verification\nExpected: a string containing \"Shirts Online: upto 70%+ Off on Formal & Casual Shirts for Men - AJIO\"\n     Actual: was \"Shirts Online: upto 70%+ Off on Formal & Casual Shirts for Men - AJIO\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyFlipkartOrder_1rr37zrvo01de42367.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verifying the products \nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;45&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "../img/verifyFlipkartOrder_m5pdp60yh2vh42368.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"NETWORK\"\n     Actual: was \"NETWORK\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyFlipkartOrder_1tjnpyuv84y2n42369.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Fil-a-Fil Shirt with Patch Pocket\"\n     Actual: was \"Fil-a-Fil Shirt with Patch Pocket\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyFlipkartOrder_1nbp8tvknqxf842370.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Rs. 300\"\n     Actual: was \"Rs. 300\"",
+      "type": "Pass",
+      "screenshot": "../img/verifyFlipkartOrder_177f48v0chlqw42371.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Verifying add to cart page\nExpected: a string containing \"Your Shopping Bag | AJIO\"\n     Actual: was \"Buy NETWORK Men Red Fil-a-Fil Shirt with Patch Pocket | AJIO\"",
+      "type": "Fail",
+      "screenshot": "../img/verifyFlipkartOrder_142nil8h0aehz42372.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //div[@class='fnl-cart-des-main']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)\r\n\tat com.ajioweb.pages.AddtocartTestPage.verifyAddToCartPage(AddtocartTestPage.java:43)\r\n\tat com.ajioweb.test.TestFlipkartOrderVerification.verifyFlipkartOrder(TestFlipkartOrderVerification.java:34)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='fnl-cart-des-main']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\YESHWA~1.KUM\\AppData\\Local\\Temp\\scoped_dir12172_30669}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 18e6a6f2b4cb3f9b641656d2ad670c82\n*** Element info: {Using=xpath, value=//div[@class='fnl-cart-des-main']}\r\n\tat sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:398)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\t... 40 more\r\n"
+}

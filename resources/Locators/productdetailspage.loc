@@ -1,0 +1,5 @@
+lnk.productbrand.productdetailspage = {\"locator\":\"xpath=//h2[@class='brand-name']\",\"desc\":\"product brand name in product details page\"}
+lnk.productname.productdetailspage = {\"locator\":\"xpath=//h1[@class='prod-name']\",\"desc\":\"product name in product details page\"}
+lnk.productprice.producdetailspage = {\"locator\":\"xpath=//div[@class='prod-sp']\",\"desc\":\"product price in product details page\"}
+lnk.productsize.productdetailspage = {\"locator\":\"xpath=//div[contains(@class,'instock')]\",\"desc\":\"product size in product details page\"}
+lnk.addtobag.productdetailspage = {\"locator\":\"xpath=//span[text()='ADD TO BAG']\",\"desc\":\"add to bag in product details page\"}

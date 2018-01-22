@@ -1,0 +1,8 @@
+14:59:29 Invoking Teststep: user opens ajio application
+14:59:36 Completed Teststep: user opens ajio application
+14:59:38 Invoking Teststep: user should gets ajio homepage
+14:59:39 Completed Teststep: user should gets ajio homepage
+14:59:39 Invoking Teststep: user selects {0} in the menu bar with arguments: [MEN]
+14:59:39 Completed Teststep: user selects {0} in the menu bar with arguments: [MEN]
+14:59:39 Invoking Teststep: user selects {0} from the menu with arguments: [Shirts]
+14:59:41 Completed Teststep: user selects {0} from the menu with arguments: [Shirts]

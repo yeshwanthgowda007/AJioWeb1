@@ -1,6 +1,11 @@
 {
   "reports": [
     {
+      "name": "Suite",
+      "dir": "test-results/22_Jan_2018_09_29_AM/json",
+      "startTime": 1516613366105
+    },
+    {
       "name": "AJioWeb.scenarios.AjioAddToCart.bdd",
       "dir": "test-results/22_Jan_2018_01_31_PM/json",
       "startTime": 1516608111570

@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import com.ajioweb.Bean.ProductInfoBean;
 import com.qmetry.qaf.automation.core.ConfigurationManager;
+import com.qmetry.qaf.automation.core.QAFTestBase;
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.annotations.FindBy;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
@@ -39,6 +40,7 @@ public class AddtocartTestPage extends WebDriverBaseTestPage<WebDriverTestPage> 
 	
 	public void verifyAddToCartPage()
 	{
+		QAFTestBase.pause(2000);
 		getLnkProductnameAddtocartpage().waitForVisible();
 		Validator.verifyThat("Verifying add to cart page", driver.getTitle(),Matchers.containsString("Your Shopping Bag | AJIO"));
 		ProductInfoBean details2=(ProductInfoBean)ConfigurationManager.getBundle().getProperty("product.information");

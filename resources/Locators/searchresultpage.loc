@@ -3,3 +3,6 @@ lnk.productbrand.searchresultpage = {\"locator\":\"xpath=//div[@class='brand']\"
 lnk.productprice.searchresultpage = {\"locator\":\"xpath=//span[@class='price']\",\"desc\":\"product price in search result page\"}
 drp.sortby.searchresultpage = {\"locator\":\"xpath=//select\",\"desc\":\"sort by in search result page\"}
 lnk.productdivision.searchresultpage = {\"locator\":\"xpath=//div[@class='preview']\",\"desc\":\"product division in search result page\"}
+lnk.discountpercentage.searchresultpage = {\"locator\":\"xpath=//input[@id='%s']\",\"desc\":\"discount percentage in search result page\"}
+lnk.discount.searchresultpage = {\"locator\":\"xpath=//span[@class='discount']\",\"desc\":\"discount in division in search result page\"}
+lnk.brands.searchresultpage = {\"locator\":\"xpath=//input[@id='%s']\",\"desc\":\"brands filter in search result page\"}

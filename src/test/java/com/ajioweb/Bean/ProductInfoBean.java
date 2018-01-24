@@ -5,6 +5,14 @@ public class ProductInfoBean {
 	public String productName;
 	public String productBrand;
 	public String productPrice;
+	public String discount;
+	
+	public String getDiscount() {
+		return discount;
+	}
+	public void setDiscount(String discount) {
+		this.discount = discount;
+	}
 	public String getProductName() {
 		return productName;
 	}

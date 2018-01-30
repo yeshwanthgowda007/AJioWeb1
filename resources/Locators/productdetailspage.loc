@@ -3,3 +3,4 @@ lnk.productname.productdetailspage = {\"locator\":\"xpath=//h1[@class='prod-name
 lnk.productprice.producdetailspage = {\"locator\":\"xpath=//div[@class='prod-sp']\",\"desc\":\"product price in product details page\"}
 lnk.productsize.productdetailspage = {\"locator\":\"xpath=//div[contains(@class,'instock')]\",\"desc\":\"product size in product details page\"}
 lnk.addtobag.productdetailspage = {\"locator\":\"xpath=//span[text()='ADD TO BAG']\",\"desc\":\"add to bag in product details page\"}
+lnk.selectsize.productdetailspage = {\"locator\":\"xpath=//div[text()='%s']\",\"desc\":\"size in product details page\"}

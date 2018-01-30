@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.ajioweb.test.TestFlipkartOrderVerification">
+      <class name="com.ajioweb.test.VerifySizeSelected">
         <methods>
-          <include name="verifyFlipkartOrder"/>
+          <include name="verifySortedbyDiscount"/>
         </methods>
-      </class> <!-- com.ajioweb.test.TestFlipkartOrderVerification -->
+      </class> <!-- com.ajioweb.test.VerifySizeSelected -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

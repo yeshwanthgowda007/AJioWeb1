@@ -1,0 +1,323 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516772945275,
+      "duration": 19054,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountAFrmFDnuBP",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516773013226,
+      "duration": 26055,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountRyxZfmDCqW",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516773095661,
+      "duration": 15617,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountTpuYCrhJEJ",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516773267421,
+      "duration": 49967,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountUvwMyTJgUR",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516773373482,
+      "duration": 46272,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountuOAVOrdpzW",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516773963442,
+      "duration": 52619,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountNAeqxOvVIX",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516774034322,
+      "duration": 31431,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscounteDjmscWpiV",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516774721008,
+      "duration": 25658,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountSKntzXXJtE",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516774841981,
+      "duration": 22802,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountjlLbUOerOx",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516775010654,
+      "duration": 21535,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountLWmlPQIZDA",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516775069247,
+      "duration": 320339,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountDMYVLINTrY",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516775686340,
+      "duration": 117819,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscounttHZQJcjTxj",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516775858424,
+      "duration": 46694,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountDmFHFySLWP",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516776035529,
+      "duration": 39378,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountNtZdjAlxsj",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516776754502,
+      "duration": 53418,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountaHKXKuUYNg",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516776870341,
+      "duration": 51867,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountWyAKqzjjgz",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516778090711,
+      "duration": 68643,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountUjOhjUtkFp",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516778435075,
+      "duration": 56614,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountXkqtayihBL",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516778685721,
+      "duration": 50129,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountDKuaeSMTxA",
+        "sign": "VerifySortedByDiscount.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySortedByDiscount@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516781489925,
+      "duration": 59048,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [AJioWeb.scenarios.AjioAddToCart.bdd]">
-  <parameter name="scenario.file.loc" value="scenarios/AjioAddToCart.bdd"/>
-  <test name="BDD Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+      <class name="com.ajioweb.test.VerifySizeSelected">
         <methods>
-          <include name="scenario" invocation-numbers="4"/>
-          <include name="afterSuit"/>
-          <include name="setupMethod"/>
-          <include name="setupSuit"/>
-          <include name="setupTest"/>
-          <include name="afterClass"/>
-          <include name="setup"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
+          <include name="verifySortedbyDiscount"/>
         </methods>
-      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+      </class> <!-- com.ajioweb.test.VerifySizeSelected -->
     </classes>
-  </test> <!-- BDD Test(failed) -->
-</suite> <!-- Failed suite [AJioWeb.scenarios.AjioAddToCart.bdd] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

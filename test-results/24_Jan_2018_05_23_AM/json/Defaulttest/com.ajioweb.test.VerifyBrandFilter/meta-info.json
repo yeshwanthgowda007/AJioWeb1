@@ -1,0 +1,67 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "sign": "VerifyBrandFilter.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifyBrandFilter@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516781555700,
+      "duration": 57324,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountprJCMvfRIS",
+        "sign": "VerifyBrandFilter.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifyBrandFilter@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516781646755,
+      "duration": 323670,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountUlISJIYNSb",
+        "sign": "VerifyBrandFilter.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifyBrandFilter@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516782032094,
+      "duration": 38404,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountRPjaXyglAC",
+        "sign": "VerifyBrandFilter.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifyBrandFilter@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516787081594,
+      "duration": 46160,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

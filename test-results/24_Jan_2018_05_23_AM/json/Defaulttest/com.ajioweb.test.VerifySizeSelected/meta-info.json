@@ -1,0 +1,35 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "sign": "VerifySizeSelected.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySizeSelected@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516790546907,
+      "duration": 61167,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifySortedbyDiscount",
+        "resultFileName": "verifySortedbyDiscountqPlTmCxRWT",
+        "sign": "VerifySizeSelected.verifySortedbyDiscount()[pri:0, instance:com.ajioweb.test.VerifySizeSelected@70be0a2b]"
+      },
+      "dependsOn": [],
+      "startTime": 1516790643967,
+      "duration": 52986,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

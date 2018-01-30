@@ -38,6 +38,8 @@ public class SearchresultTestPage extends WebDriverBaseTestPage<WebDriverTestPag
 	private QAFWebElement lnkDiscountSearchresultpage;
 	@FindBy(locator = "lnk.brands.searchresultpage")
 	private QAFWebElement lnkBrandsSearchresultpage;
+	@FindBy(locator = "lnk.sizefilter.searchresultpage")
+	private QAFWebElement lnkSizefilterSearchresultpage;
 
 	public void setLnkBrandsSearchresultpage(QAFWebElement lnkBrandsSearchresultpage) {
 		this.lnkBrandsSearchresultpage = lnkBrandsSearchresultpage;
@@ -73,11 +75,15 @@ public class SearchresultTestPage extends WebDriverBaseTestPage<WebDriverTestPag
 	public QAFWebElement getDrpSortbySearchresultpage() {
 		return drpSortbySearchresultpage;
 	}
-	
+
 	public QAFWebElement getLnkBrandsSearchresultpage() {
 		return lnkBrandsSearchresultpage;
 	}
 
+	public QAFWebElement getLnkSizefilterSearchresultpage() {
+		return lnkSizefilterSearchresultpage;
+	}
+	
 	public List<ProductComponent> getlnkProductDivisionSearchresultpage() {
 		return lnkProductDivisionSearchresultpage;
 	}
@@ -167,28 +173,40 @@ public class SearchresultTestPage extends WebDriverBaseTestPage<WebDriverTestPag
 			}
 		}
 	}
-	
-	public void clickBrandFilter(String brand)
-	{
-		QAFExtendedWebElement brandCheckBox=new QAFExtendedWebElement(String.format(ConfigurationManager.getBundle().getString("lnk.brands.searchresultpage"), brand));
+
+	public void clickBrandFilter(String brand) {
+		QAFExtendedWebElement brandCheckBox = new QAFExtendedWebElement(String.format(
+				ConfigurationManager.getBundle().getString("lnk.brands.searchresultpage"),
+				brand));
 		Validator.verifyThat(brandCheckBox.isEnabled(), Matchers.equalTo(true));
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click()", brandCheckBox);
 		QAFTestBase.pause(2000);
-		
+
+	}
+
+	public void verifyBrandNameDisplayed(String brand) {
+		int cntr = 0;
+		for (ProductComponent p : getlnkProductDivisionSearchresultpage()) {
+			if (p.getLnkProductbrandSearchresultpage().getText()
+					.equalsIgnoreCase(brand)) {
+				cntr++;
+			} else {
+				Reporter.log("Not filtered according to brand", true);
+			}
+		}
+		Reporter.log(cntr + " Filtered brand displayed", true);
+	}
+
+	public void clickSizeFilter(String size)
+	{
+		QAFTestBase.pause(2000);
+		QAFExtendedWebElement sizeFilter=new QAFExtendedWebElement(String.format(ConfigurationManager.getBundle().getString("lnk.sizefilter.searchresultpage"), size));
+		sizeFilter.waitForVisible();
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		executor.executeScript("arguments[0].click()", sizeFilter);
+		QAFTestBase.pause(2000);
 	}
 	
-	public void verifyBrandNameDisplayed(String brand)
-	{
-		for (ProductComponent p : getlnkProductDivisionSearchresultpage()) {
-			if(p.getLnkProductbrandSearchresultpage().getText().equalsIgnoreCase(brand))
-			{
-				Reporter.log("Filtered according to brand",true);
-			}
-			else
-			{
-				Reporter.log("Not filtered according to brand",true);
-			}
-		}		
-	}	
+	
 }

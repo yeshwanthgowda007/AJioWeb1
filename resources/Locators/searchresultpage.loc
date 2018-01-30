@@ -6,3 +6,4 @@ lnk.productdivision.searchresultpage = {\"locator\":\"xpath=//div[@class='previe
 lnk.discountpercentage.searchresultpage = {\"locator\":\"xpath=//input[@id='%s']\",\"desc\":\"discount percentage in search result page\"}
 lnk.discount.searchresultpage = {\"locator\":\"xpath=//span[@class='discount']\",\"desc\":\"discount in division in search result page\"}
 lnk.brands.searchresultpage = {\"locator\":\"xpath=//input[@id='%s']\",\"desc\":\"brands filter in search result page\"}
+lnk.sizefilter.searchresultpage = {\"locator\":\"xpath=//input[@id='%s']\",\"desc\":\"size filter in search result page\"}
